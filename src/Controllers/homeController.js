@@ -1,7 +1,7 @@
 export function index(req, res) {
-  res.render("home", { title: "Hey", message: "Hello cafer!" })
+  res.render("home/home", { title: "Hey", message: "Hello cafer!" })
 }
 
 export function about(req, res) {
-  res.render("about")
+  res.render("home/about")
 }
